@@ -1,21 +1,46 @@
 <html>
+<style type="text/css">
+    .intro1 {
+        background-color: darkred;
+    }
+
+    .intro2 {
+        background-color: darkgoldenrod;
+    }
+
+    .intro3 {
+        background-color: darkslategray;
+    }
+</style>
 
 <head>
 
 </head>
 
 <body>
-    <p id="intro1">First Paragraph</p>
-    <p id="intro2">Second Paragraph</p>
-    <p id="intro3">Third Paragraph</p>
+    <p class="intro1" id="intro1">First Paragraph</p>
+    <p class="intro2" id="intro2">Second Paragraph</p>
+    <p class="intro3" id="intro3">Third Paragraph</p>
     <ul>
-        <li>NewYork</li>
+        <li class="intro1">NewYork</li>
         <li>Amsterdam</li>
         <li>Berlin</li>
         <li>Paris</li>
         <li>Tokyo</li>
-    </ul>                 
+    </ul>
+    <p id="mesaj"></p>
+    <input type="text" name="CustomerName" value="John Doe">
+    <h1 id="jane">Jane Doe</h1>
+    <h1 id="Author"></h1>
+    <p class="intro1" id="tree">
+        Tree Value
+    </p>
+    <div id="div1">
+        <p id="p1">This part P1</p>
+        <p id="p1">This part P2</p>
+    </div>
     <script src="dom.js"></script>
 </body>
+
 
 </html>
